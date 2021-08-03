@@ -1,0 +1,21 @@
+body {
+  background-color: #e5e5e5;
+  font-family: Roboto;
+  font-style: normal;
+}
+/* color of header FFFFFF*/
+/* color of box 2F303A */
+/* color of team F5F4FA */
+/* color of adress background 2F303A */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
