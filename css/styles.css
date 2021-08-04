@@ -25,7 +25,12 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-
+.logo-color {
+  color: #000000;
+}
+.logo-color-footer {
+  color: #ffffff;
+}
 .list {
   list-style: none;
 }
@@ -54,6 +59,7 @@ body {
 .banner {
   background-color: #2f303a;
 }
+
 h1 {
   color: var(--primary-background-color);
   font-style: normal;
@@ -143,11 +149,13 @@ footer {
 }
 .address {
   color: var(--primary-background-color);
+  font-style: normal;
   font-size: 14 px;
   line-height: 1.71;
 }
 .email {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 /* Portfolio page */
@@ -163,4 +171,19 @@ footer {
 .button-secondary:hover {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
+}
+.portfolio-name {
+  color: var(--title-text-color);
+
+  font-style: normal;
+  font-size: 18 px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-filter {
+  color: var(--primary-text-color);
+
+  font-weight: normal;
+  font-size: 16 px;
+  line-height: 1.87;
 }
